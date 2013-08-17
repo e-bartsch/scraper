@@ -2,8 +2,6 @@ import pyPdf
 
 f = open('Student-Activities-Guide-Final-2011-2012.pdf','rb')
 
-#
-
 pdf = pyPdf.PdfFileReader(f)
 pgs = pdf.getNumPages()
 key = '/Annots'
